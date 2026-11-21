@@ -1,0 +1,19 @@
+config_version=5
+
+[application]
+
+config/name="Fields of Valor"
+config/description="A World War I 3D squad-based combat game for Android."
+config/features=PackedStringArray("4.0", "GL Compatibility")
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/handheld/orientation=1
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
